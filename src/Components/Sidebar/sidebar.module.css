@@ -1,0 +1,35 @@
+.sidebar{
+    border: 2px solid red;
+    height:100vh;
+    width:200px;
+    box-sizing:border-box;
+    background-color:  #e6f0ff;
+}
+
+.sidebar ul{
+    border: 1px solid black;
+    margin:0px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    height:100%;
+    align-items:flex-start;
+}
+
+.sidebar ul li{
+    /* background-color:   #66a3ff; */
+    background-color:   #e6f0ff;
+
+    /* border: 1px solid green; */
+    list-style: none;
+    display:inline;
+    padding:10px 20px;
+    transition:all  ease-in;
+    text-align: center;
+}
+
+.sidebar ul li:hover {
+    background-color: #0066ff;
+    cursor:pointer;
+}
+
